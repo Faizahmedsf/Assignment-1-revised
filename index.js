@@ -128,7 +128,7 @@ class Tableclass {
 
                 for (let j = 0; j < tableheader.length; j++) {
                     let tablecell = tbodyrow.insertCell(-1)
-                    //     // tbodyrow.append(tablecell)
+                    //     // tbodyrow.append(tablecell) 
                     tablecell.innerText = tableData[i][tableheader[j]]
                     // console.log(j)
                     tablecell.classList.add('tcell')
